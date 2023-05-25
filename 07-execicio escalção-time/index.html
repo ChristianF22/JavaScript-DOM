@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escalação do Time</title>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Lista de compras</h1>
+  <h2>Adicionar Produto</h2>
+  <p>
+    <label for="position">Produto:</label>
+    <input type="text" id="position">
+    <label for="name">Nome:</label>
+    <input type="text" id="name">
+    <label for="number">Quantidade:</label>
+    <input type="number" id="number">
+    <br>
+    <br>
+    <button onclick="addPlayer()">Adicionar</button>
+  </p>
+  <h2>Remover Produtor</h2>
+  <p>
+    <label for="numberToRemove">Número:</label>
+    <input type="number" id="numberToRemove">
+    <br>
+    <br>
+    <button onclick="removePlayer()">Remover</button>
+  </p>
+  <h2>Produto Adicionado:</h2>
+  <ul id="team-list"></ul>
+</body>
+</html>
